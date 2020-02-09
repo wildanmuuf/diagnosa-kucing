@@ -1,0 +1,30 @@
+.modal-dialog {
+  position: relative;
+ display: table; /* This is important */
+ overflow-y: auto;
+ overflow-x: auto;
+ width: auto !important;
+ min-width: 300px;
+ min-height: 300px;
+ top: 25%;
+}
+.modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+    color:#333;
+    overflow:auto;
+}
+.modal-title {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.modal-body p{
+  font-size: 15px;
+  padding-top: 10px;
+}
+.close {
+    color:black ! important;
+    opacity:1.0;
+}
